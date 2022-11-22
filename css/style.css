@@ -1,0 +1,133 @@
+table, thead, tbody, tfoot, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: none;
+  border-collapse: inherit;
+  border-spacing: 0;
+  border-color: inherit;
+  vertical-align: inherit;
+  font-weight: inherit;
+  -webkit-border-horizontal-spacing: 0;
+  -webkit-border-vertical-spacing: 0;
+}
+
+*, *:before, *:after, input, textarea, button, select {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input, option, textarea {
+  border-radius: 0;
+  box-shadow: none !important;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+ul, ol {
+  list-style-type: none;
+}
+
+a, button, select {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+}
+
+input:focus, label:focus, textarea:focus, select:focus, option:focus, button:focus, a:focus {
+  outline: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+html {
+  font-size: 14px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.container {
+  width: 100%;
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+.header {
+  background-color: black;
+  padding: 20px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-menu {
+  display: flex;
+}
+.nav-menu-item + .nav-menu-item {
+  margin-left: 45px;
+}
+
+.hero {
+  padding: 110px 0 140px;
+  background-image: url(../assets/img/image.png);
+}
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.hero-info {
+  max-width: 520px;
+}
+.hero-info-title {
+  margin-top: 35px;
+  font-size: 36px;
+}
+.hero-info-line {
+  width: 65px;
+  height: 2px;
+  background-color: #ffffff;
+  margin-top: 40px;
+}
+.hero-info-text {
+  margin-top: 40px;
+  font-size: 16px;
+}
+.hero-info-link {
+  display: inline-block;
+  margin-top: 45px;
+  padding: 15px 30px;
+  border: 2px solid #ffffff;
+  font-size: 15px;
+}
+.hero-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffffff;
+}
+.hero-form-title {
+  padding: 20px 50px 15px;
+  font-size: 20px;
+  background-color: #f5f5f5;
+}
+.hero-form-input {
+  width: 285px;
+  margin-top: 35px;
+  padding: 10px 15px;
+  color: #bdbdbd;
+}
+.hero-form-button {
+  margin-top: 50px;
+  background-color: #ff9b51;
+}/*# sourceMappingURL=style.css.map */
