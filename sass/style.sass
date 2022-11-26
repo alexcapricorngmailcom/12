@@ -74,8 +74,8 @@ html
         &-line
             width: 65px
             height: 2px
-            background-color: $white
             margin-top: 40px
+            background-color: $white
         &-text
             margin-top: 40px
             font-size: 16px
@@ -130,7 +130,7 @@ html
     position: relative
     z-index: 1
     padding: 24px 0
-    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.9)
+    box-shadow: 0px 1px 3px 0px rgba(0,0,0,0.4)
     &-container
         display: flex
         align-items: center
@@ -147,6 +147,7 @@ html
                 margin-left: 60px
         &-icon
             font-size: 45px
+            transition: 0.2s
             &:hover, &:focus
                 color: $accentColor
 
@@ -167,6 +168,7 @@ html
             cursor: pointer
             font-size: 15px
             font-weight: 700
+            transition: 0.2s
             color: $white
             &:first-child
                 border-radius: 5px 5px 0 0
@@ -216,8 +218,6 @@ html
         margin-left: 160px
         &-line
             margin-top: 30px
-            width: 65px
-            height: 2px
             background-color: $accentColor
         &-text
             margin-top: 30px
@@ -240,7 +240,9 @@ html
         &-textblock
             margin-left: 30px
             &-title
-                color: $mainTitleColor
+                font-size: 14px
+
+//features3
 
 .features3
     padding: 75px 0
@@ -254,3 +256,55 @@ html
         margin-right: 160px
         margin-left: auto
         order: -1
+
+//process
+
+.process
+    padding: 105px 0
+    text-align: center
+    &-title
+        font-family: Raleway
+        font-size: 36px
+        color: $mainTitleColor
+    &-line
+        margin: 30px auto 0 auto
+    &-list
+        display: flex
+        margin: 80px -15px 0 -15px
+        &-item
+            padding: 0 15px
+        &-container
+            width: 70px
+            height: 70px
+            margin: 0 auto
+        &-icon
+            font-size: 28px
+        &-title
+            margin-top: 25px
+        &-text
+            margin-top: 20px
+            
+//pricing
+
+.pricing
+    &-list
+        margin: 80px -20px 0 -20px
+    &-card
+        &-title
+            padding: 20px 150px
+            background-color: $secondaryAccentColor
+            color: $white
+        &-price
+            margin-top: 1px
+            padding-bottom: 20px
+            background-color: $secondaryAccentColor
+            color: $white
+            &-item1
+                font-family: Raleway
+                font-weight: bold
+                font-size: 36px
+                &-accent
+                    font-size: 94px
+            &-item2
+                font-weight: 600
+                font-style: italic

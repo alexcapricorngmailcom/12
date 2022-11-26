@@ -163,8 +163,8 @@ html {
 .hero-info-line {
   width: 65px;
   height: 2px;
-  background-color: #ffffff;
   margin-top: 40px;
+  background-color: #ffffff;
 }
 .hero-info-text {
   margin-top: 40px;
@@ -206,12 +206,6 @@ html {
   border-bottom: 1px solid #bdbdbd;
   color: inherit;
 }
-.hero-form-input::-moz-placeholder {
-  color: #bdbdbd;
-}
-.hero-form-input:-ms-input-placeholder {
-  color: #bdbdbd;
-}
 .hero-form-input::placeholder {
   color: #bdbdbd;
 }
@@ -234,7 +228,7 @@ html {
   position: relative;
   z-index: 1;
   padding: 24px 0;
-  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.9);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.4);
 }
 .social-media-container {
   display: flex;
@@ -255,6 +249,7 @@ html {
 }
 .social-media-list-icon {
   font-size: 45px;
+  transition: 0.2s;
 }
 .social-media-list-icon:hover, .social-media-list-icon:focus {
   color: #ff9b51;
@@ -278,6 +273,7 @@ html {
   cursor: pointer;
   font-size: 15px;
   font-weight: 700;
+  transition: 0.2s;
   color: #ffffff;
 }
 .features-tabs-item:first-child {
@@ -343,8 +339,6 @@ html {
 }
 .features2-block-line {
   margin-top: 30px;
-  width: 65px;
-  height: 2px;
   background-color: #ff9b51;
 }
 .features2-block-text {
@@ -374,7 +368,7 @@ html {
   margin-left: 30px;
 }
 .features2-extra-textblock-title {
-  color: #212121;
+  font-size: 14px;
 }
 
 .features3 {
@@ -392,4 +386,65 @@ html {
   margin-right: 160px;
   margin-left: auto;
   order: -1;
+}
+
+.process {
+  padding: 105px 0;
+  text-align: center;
+}
+.process-title {
+  font-family: Raleway;
+  font-size: 36px;
+  color: #212121;
+}
+.process-line {
+  margin: 30px auto 0 auto;
+}
+.process-list {
+  display: flex;
+  margin: 80px -15px 0 -15px;
+}
+.process-list-item {
+  padding: 0 15px;
+}
+.process-list-container {
+  width: 70px;
+  height: 70px;
+  margin: 0 auto;
+}
+.process-list-icon {
+  font-size: 28px;
+}
+.process-list-title {
+  margin-top: 25px;
+}
+.process-list-text {
+  margin-top: 20px;
+}
+
+.pricing-list {
+  margin: 80px -20px 0 -20px;
+}
+.pricing-card-title {
+  padding: 20px 150px;
+  background-color: #333333;
+  color: #ffffff;
+}
+.pricing-card-price {
+  margin-top: 1px;
+  padding-bottom: 20px;
+  background-color: #333333;
+  color: #ffffff;
+}
+.pricing-card-price-item1 {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 36px;
+}
+.pricing-card-price-item1-accent {
+  font-size: 94px;
+}
+.pricing-card-price-item2 {
+  font-weight: 600;
+  font-style: italic;
 }/*# sourceMappingURL=style.css.map */
