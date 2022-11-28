@@ -1,3 +1,4 @@
+@charset "UTF-8";
 table, thead, tbody, tfoot, tr, th, td {
   margin: 0;
   padding: 0;
@@ -206,6 +207,12 @@ html {
   border: none;
   border-bottom: 1px solid #bdbdbd;
   color: inherit;
+}
+.hero-form-input::-moz-placeholder {
+  color: #bdbdbd;
+}
+.hero-form-input:-ms-input-placeholder {
+  color: #bdbdbd;
 }
 .hero-form-input::placeholder {
   color: #bdbdbd;
@@ -530,4 +537,41 @@ html {
 }
 .testimonial-list-textBlock-profession {
   margin-top: 10px;
+}
+
+.custom {
+  padding: 75px 0 62px;
+  background-image: url(../assets/img/сustomBackground.png);
+  background-size: cover;
+}
+.custom-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+}
+.custom-info-title {
+  margin-top: 0;
+  font-weight: 400;
+}
+.custom-info-line {
+  margin-top: 30px;
+}
+.custom-info-text {
+  margin-top: 30px;
+}
+.custom-info-link {
+  margin-top: 35px;
+}
+
+.contactUs {
+  padding: 100px 0 80px;
+  background-image: none;
+  color: inherit;
+}
+.contactUs-info-title {
+  color: #212121;
+}
+.contactUs-info-line {
+  background-color: #ff9b51;
 }/*# sourceMappingURL=style.css.map */
