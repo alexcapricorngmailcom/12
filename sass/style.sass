@@ -136,18 +136,23 @@ html
         display: flex
         align-items: center
     &-block
-        margin-right: 90px
+        flex-shrink: 0
+        max-width: 365px
         &-title
             color: $secondaryAccentColor
     &-list
         display: flex
-        // TODO: just-content doesn't work
+        justify-content: space-between
         align-items: center
+        margin-left: 90px
+        width: 100%
+        font-size: 45px
+        color: #cccccc
         &-item
-            & + &
-                margin-left: 60px
+            // & + &
+            //     margin-left: 60px
         &-icon
-            font-size: 45px
+            
             transition: 0.2s
             &:hover, &:focus
                 color: $accentColor
@@ -378,6 +383,7 @@ html
             &-profession
                 margin-top: 10px
      
+//custom
 
 .custom
     padding: 75px 0 62px
@@ -398,6 +404,8 @@ html
         &-link
             margin-top: 35px
 
+//contactUs
+
 .contactUs
     padding: 100px 0 80px
     background-image: none
@@ -407,3 +415,42 @@ html
             color: $mainTitleColor
         &-line
             background-color: $accentColor
+    &-form
+        margin: 90px -33px 0 -33px
+        &-list
+            display: flex
+            width: 100%
+        &-item
+            width: 50%
+            padding: 0 33px
+        &-item:first-child
+            display: flex
+            flex-direction: column
+        &-input
+            width: 100%
+            margin-top: 0px
+            & + &
+                margin-top: 40px
+        &-textarea
+            resize: none
+            height: 100%
+
+
+//footer
+
+.footer
+    padding: 20px 0 15px 0
+    background-color: $black
+    &-container
+        display: flex
+        flex-direction: column
+        align-items: center    
+    &-list
+        margin-left: 0
+        max-width: 320px
+        font-size: 23px
+    &-copyright
+        margin-top: 15px
+        font-size: 12px
+        color: $white
+
