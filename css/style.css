@@ -237,8 +237,7 @@ html {
   align-items: center;
 }
 .social-media-block {
-  flex-shrink: 0;
-  max-width: 365px;
+  min-width: 365px;
 }
 .social-media-block-title {
   color: #333333;
