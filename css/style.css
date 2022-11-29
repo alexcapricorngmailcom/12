@@ -138,6 +138,7 @@ html {
 }
 .nav-menu-link {
   font-weight: 600;
+  transition: 0.2s;
 }
 .nav-menu-link:hover, .nav-menu-link:focus {
   color: #ff9b51;
