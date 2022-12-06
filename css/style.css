@@ -209,6 +209,12 @@ html {
   border-bottom: 1px solid #bdbdbd;
   color: inherit;
 }
+.hero-form-input::-moz-placeholder {
+  color: #bdbdbd;
+}
+.hero-form-input:-ms-input-placeholder {
+  color: #bdbdbd;
+}
 .hero-form-input::placeholder {
   color: #bdbdbd;
 }
@@ -596,6 +602,10 @@ html {
 .contactUs-form-textarea {
   resize: none;
   height: 100%;
+}
+.contactUs-link {
+  margin-top: 40px;
+  margin-bottom: 1px;
 }
 
 .footer {
