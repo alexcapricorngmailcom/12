@@ -778,14 +778,13 @@ html {
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
     text-transform: uppercase;
-    text-align: center;
   }
   .nav-menu-item + .nav-menu-item {
     margin-left: 0;
   }
   .nav-menu-link {
     display: inline-block;
-    padding: 26px;
+    padding: 20px;
   }
   .nav-menu-label {
     font-size: 20px;
@@ -796,7 +795,10 @@ html {
     display: block;
   }
   .nav-menu-input:checked + .nav-menu {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
   .hero-info {
     text-align: center;
