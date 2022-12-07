@@ -48,6 +48,11 @@ html
     color: $white
     &-menu
         display: flex
+        &-input
+            display: none
+        &-label
+            &-menu
+                display: none
         &-item + &-item
             margin-left: 45px
         &-link
@@ -157,7 +162,7 @@ html
 //features
 
 .features
-    padding: 145px 115px
+    padding: 145px 0 115px
     &-container
         display: flex
         align-items: center
@@ -391,6 +396,7 @@ html
         flex-direction: column
         align-items: center
         max-width: 100%
+        text-align: center
         &-title
             margin-top: 0
             font-weight: 400
