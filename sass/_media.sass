@@ -234,3 +234,29 @@
         &-list
             margin-top: 20px
             font-size: 25px
+
+    .features
+        &-container
+            flex-direction: column
+        &-tabs
+            display: flex
+            &-item
+                padding: 39px 28px
+                &:first-child
+                    border-radius: 5px 0px 0 5px
+                &:last-child
+                    border-radius: 0 5px 5px 0px
+                & + &
+                    border-top: none
+                    border-left: 1px solid #c7c7c7
+        &-block
+            text-align: center
+            margin-top: 23px
+            margin-left: 0
+            &-text1, &-text2
+                text-align: justify
+
+    .contactUs
+        &-form
+            &-input
+                width: 100%
