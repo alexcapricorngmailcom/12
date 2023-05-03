@@ -219,9 +219,6 @@ html {
 .hero-form-input::-moz-placeholder {
   color: #bdbdbd;
 }
-.hero-form-input:-ms-input-placeholder {
-  color: #bdbdbd;
-}
 .hero-form-input::placeholder {
   color: #bdbdbd;
 }
